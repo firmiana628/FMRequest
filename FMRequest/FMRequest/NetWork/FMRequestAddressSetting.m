@@ -26,7 +26,7 @@ static FMRequestAddressSetting *_staticSetting;
 -(instancetype)init
 {
     if (self = [super init]) {
-        _baseUrl = @"https://www.baidu.com";
+        _baseUrl = @"https://www.sojson.com";
     }
     return self;
 }

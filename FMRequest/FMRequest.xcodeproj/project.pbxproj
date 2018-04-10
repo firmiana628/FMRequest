@@ -29,6 +29,7 @@
 		ACB1BCCC207101A000D1F5CA /* FMRequestAddressSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1BCCB207101A000D1F5CA /* FMRequestAddressSetting.m */; };
 		ACB1BCCF207105C500D1F5CA /* NSString+HHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB1BCCE207105C500D1F5CA /* NSString+HHAdd.m */; };
 		ACEB8514207620E6008E47C3 /* FMRequestError.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEB8513207620E6008E47C3 /* FMRequestError.m */; };
+		DE61519B207C57F600BEC12F /* ExampleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61519A207C57F600BEC12F /* ExampleModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		ACB1BCCE207105C500D1F5CA /* NSString+HHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HHAdd.m"; sourceTree = "<group>"; };
 		ACEB8512207620E6008E47C3 /* FMRequestError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMRequestError.h; sourceTree = "<group>"; };
 		ACEB8513207620E6008E47C3 /* FMRequestError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMRequestError.m; sourceTree = "<group>"; };
+		DE615199207C57F600BEC12F /* ExampleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExampleModel.h; sourceTree = "<group>"; };
+		DE61519A207C57F600BEC12F /* ExampleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +174,8 @@
 				ACB1BC522070958800D1F5CA /* MainTableViewController.m */,
 				ACB1BC22207094E200D1F5CA /* ViewController.h */,
 				ACB1BC23207094E200D1F5CA /* ViewController.m */,
+				DE615199207C57F600BEC12F /* ExampleModel.h */,
+				DE61519A207C57F600BEC12F /* ExampleModel.m */,
 				ACB1BC542070FA9300D1F5CA /* NetWork */,
 				ACB1BC25207094E200D1F5CA /* Main.storyboard */,
 				ACB1BC28207094E200D1F5CA /* Assets.xcassets */,
@@ -456,6 +461,7 @@
 				ACB1BCBB2070FA9300D1F5CA /* FMBatchRequest.m in Sources */,
 				ACB1BCA12070FA9300D1F5CA /* FMNetworkUtil.m in Sources */,
 				AC983D7E2078708200A83649 /* FMExampleRequest.m in Sources */,
+				DE61519B207C57F600BEC12F /* ExampleModel.m in Sources */,
 				ACB1BC24207094E200D1F5CA /* ViewController.m in Sources */,
 				ACB1BC2F207094E200D1F5CA /* main.m in Sources */,
 				ACB1BCCF207105C500D1F5CA /* NSString+HHAdd.m in Sources */,

@@ -113,12 +113,12 @@ static NSString * const appReferer = @"appReferer";
 
 -(NSString * _Nullable)requestDetailUrl
 {
-    return nil;
+    return @"open/api/weather/json.shtml";
 }
 
 -(FMRequestMethod)requestMethod
 {
-    return FMRequestMethodPOST;
+    return FMRequestMethodGET;
 }
 
 -(FMRequestType)requestType

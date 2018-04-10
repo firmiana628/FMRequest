@@ -10,14 +10,11 @@
 
 @implementation FMExampleRequest
 
--(NSString * _Nonnull)requestBaseUrl
+-(NSDictionary *)parameters
 {
-    return @"https://suggest.taobao.com";
-}
-
--(NSString * _Nullable)requestDetailUrl
-{
-    return @"sug";
+    return @{
+             @"city":@"杭州",
+             };
 }
 
 @end
